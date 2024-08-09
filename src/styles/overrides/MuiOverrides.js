@@ -10,6 +10,13 @@ const theme = createTheme({
           },
         },
       },
+      MuiCard:{
+        styleOverrides:{
+          root:{
+            textAlign: 'left'
+          }
+        }
+      },
       MuiCardHeader:{
         styleOverrides:{
           root:{
