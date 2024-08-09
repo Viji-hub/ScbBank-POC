@@ -22,3 +22,37 @@
 .fb-icon {
   transform: rotate(-40deg);
 }
+
+.wrapper {
+  border: 1px solid #1565c0;
+  margin: 10px 0px;
+}
+.tabCards .MuiCardContent-root{
+  padding: 0;
+}
+
+.MuiTab-wrapped {
+  background-color: #a6a6b029 !important;
+}
+
+.MuiTab-wrapped.Mui-selected {
+  color: #1976d2 !important;
+  background-color: white !important;
+}
+
+.MuiTabs-indicator {
+  background-color: #1976d2 !important;
+}
+
+@media screen and (max-width: 500px) {
+  .MuiCard-root {
+    width: '350px';
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .MuiCard-root {
+    width: 450px;
+    margin: 10px;
+  }
+} 

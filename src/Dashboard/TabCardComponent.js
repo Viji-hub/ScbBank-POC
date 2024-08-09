@@ -15,7 +15,7 @@ export default function TabCardComponent(props) {
     };
 
     return (
-        <Card>
+        <Card className='tabCards'>
             <CardHeader
                 title={props?.data?.value ? props?.data?.value + " " + props?.data?.label.toUpperCase() : props?.data?.label.toUpperCase()}
                 avatar={
